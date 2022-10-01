@@ -95,6 +95,8 @@ body {
   #header .logo img {
     max-height: 55px;
     padding-right: 25px;
+    padding-left: 25px;
+
   }
 
   #header .logo .logo_txt {
@@ -110,6 +112,7 @@ body {
     font-size: 10px;
     font-weight: 700;
   }
+  
   
   /*--------------------------------------------------------------
   # Header Social Links
@@ -148,6 +151,11 @@ body {
   */
   .navbar {
     padding: 0;
+  }
+
+  .justify-content-center{
+    padding-left: 200px;
+    padding-right: 200px;
   }
   
   .navbar ul {
@@ -370,7 +378,7 @@ body {
   #hero {
     width: 100%;
     height: 60vh;
-    background: url("../images/food.png") center center;
+    background: url("../images/New.png") center center;
     background-size: cover;
     position: relative;
     margin-top: 70px;
